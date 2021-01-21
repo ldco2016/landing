@@ -7,7 +7,7 @@ import { NewsApiService } from './news-api/news-api.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  
+
   constructor(private newsApiService: NewsApiService) {}
 
   ngOnInit(): void {
